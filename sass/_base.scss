@@ -1,0 +1,25 @@
+$color-primary: #ffc800;
+$color-secondary: #d9aa00;
+$color-grey: #e9ecef;
+$color-white: #fff;
+$color-black-light-1: #212529;
+$color-black-light-2: #1a1e21;
+
+$bp-largest: 75em; //1200px
+$bp-large: 62em; //992px
+$bp-medium: 48em; //768px
+$bp-second-medium: 50em; //800px
+$bp-small: 36em; //576px
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  letter-spacing: 0.03rem;
+}
+.btn {
+  border-radius: 0.2rem !important;
+  color: $color-primary;
+}

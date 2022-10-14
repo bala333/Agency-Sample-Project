@@ -1,0 +1,95 @@
+.about {
+  padding: 5rem 0 10rem;
+  &__sub {
+    position: relative;
+    margin: 5rem 0;
+    &::before {
+      content: '';
+      display: table;
+    }
+    &-main {
+      position: relative;
+      &::before {
+        background-color: #e9ecef;
+        content: '';
+        display: block;
+        width: 2px;
+        position: absolute;
+        top: 0;
+        left: 57%;
+        bottom: 0;
+        @media only screen and (max-width: 50em) {
+          left: 40px;
+        }
+      }
+    }
+  }
+  &__text {
+    width: 30%;
+    margin-left: 15%;
+    @media only screen and (max-width: 50em) {
+      padding: 0 1rem 0 7rem;
+      margin-left: 0;
+    }
+
+    &-1 {
+      text-align: end;
+      float: left;
+      @media only screen and (max-width: 50em) {
+        text-align: start;
+      }
+    }
+    &-2 {
+      text-align: start;
+      float: right;
+      @media only screen and (max-width: 50em) {
+        text-align: start;
+        float: left;
+      }
+    }
+    @media only screen and (max-width: 50em) {
+      width: 100%;
+    }
+  }
+  &__photo {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    left: 50%;
+
+    @media only screen and (max-width: 75em) {
+      width: 8rem;
+      height: 8rem;
+    }
+    @media only screen and (max-width: 62em) {
+      width: 6.5rem;
+      height: 6.5rem;
+    }
+    @media only screen and (max-width: 50em) {
+      left: 0;
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  &__img {
+    border: 6px solid #e9ecef;
+
+    // &-1 {
+    //   border-radius: 50%;
+    //   border: 6px solid #e9ecef;
+    //   height: 10rem;
+    //   width: 10rem;
+    //   background-color: yellow;
+    //   display: block;
+    //   font-size: 1.5rem;
+    //   font-weight: 600;
+    //   color: #fff;
+
+    //   span {
+    //     position: absolute;
+    //     top: 2rem;
+    //     left: 0;
+    //   }
+    //}
+  }
+}

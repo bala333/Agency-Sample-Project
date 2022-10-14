@@ -1,0 +1,42 @@
+.team {
+  padding: 5rem 0;
+  &__photo {
+    width: 60%;
+    border: 8px solid $color-grey;
+  }
+  &__text {
+    width: 60%;
+  }
+}
+.svg__icon {
+  width: 3rem;
+  height: 2rem;
+}
+
+.tect__logo {
+  padding: 3rem 0;
+  @media only screen and (max-width: $bp-small) {
+    text-align: center;
+  }
+}
+
+.tech__img {
+  &-1 {
+    width: 60%;
+    @media only screen and (max-width: $bp-second-medium) {
+      padding: 0.5rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+      width: 40%;
+    }
+  }
+  &-2 {
+    width: 40%;
+    @media only screen and (max-width: $bp-second-medium) {
+      padding: 0.5rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+      width: 20%;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.contact {
+  padding: 3rem 0;
+  background-image: url(../img/map-image.png);
+  background-color: $color-black-light-1 !important;
+  &__textarea {
+    width: 100%;
+    @media only screen and (max-width: $bp-medium) {
+      margin-top: 2.3rem;
+    }
+  }
+}
+.form-control {
+  &:not(:last-child) {
+    margin-bottom: 2.3rem;
+  }
+}
+
+.copyright {
+  padding: 2rem 0;
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: $color-black-light-2;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
+  &__sub-main-1 {
+    @media only screen and (max-width: $bp-large) {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+  &__sub-main-2 {
+    text-align: center;
+  }
+  &__sub-main-3 {
+    text-align: end;
+    @media only screen and (max-width: $bp-large) {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  }
+}

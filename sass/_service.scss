@@ -1,0 +1,14 @@
+.service {
+  background-color: $color-white;
+  padding: 5rem 0;
+  &__icon {
+    width: 4rem;
+    height: 8rem;
+    fill: $color-white;
+  }
+  &__icons {
+    width: 8rem;
+    background-color: $color-primary;
+    border-radius: 50%;
+  }
+}
